@@ -2,3 +2,12 @@
   margin: 0px;
   font-family: "Roboto Mono", monospace;
 }
+.leftRigt {
+  width: 60rem;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10rem;
+}

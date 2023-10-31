@@ -1,12 +1,19 @@
 import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import BillPage from "./Components/BillPage";
+
 const App = () => {
   return (
-    <div className="container">
-         {/* Add title here in h1 tag */}
-      <div>
-        {/* Add BillPage component */}
+    <BrowserRouter>
+      <div className="container">
+        {/* Add title here in h1 tag */}
+        <h1>SPLITTER</h1>
+        <div>
+          {/* Add BillPage component */}
+          <BillPage />
+        </div>
       </div>
-    </div>
+    </BrowserRouter>
   );
 };
 
